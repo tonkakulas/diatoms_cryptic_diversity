@@ -6,7 +6,7 @@ library(ggpattern)
 
 #plot for Figure 4
 #import input table 
-df <- read.table("table_for_Fig4.txt", sep= "\t", dec=".", header=TRUE)
+df <- read.table("Supplementary_table_1.txt", sep= "\t", dec=".", header=TRUE)
 
 # the quantile was calculated here as to define ranges of h line on plot
 occur <- df$occurance
