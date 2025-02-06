@@ -1,7 +1,7 @@
 #before starting with haplotype networks and other phylogenetic analysis 
 #the selection of species was based on ASV counts per species and determined statistically using quantile analysis
 
-quantil  <- read.table("Table_S4.txt", sep="\t", dec=".", header = TRUE)
+quantil  <- read.table("Supplementary_table_1.txt", sep="\t", dec=".", header = TRUE)
 
 nASV  <- quantil$nASV
 
@@ -69,7 +69,7 @@ for (i in vecteur) {
   
   savetiff <- "name_of_your_file.tiff"  
   
-  # Open a TIFF device
+  # Open a TIFF device, these figures are under Fig 5 and Supplement Fig 1 in Ms
   tiff(file = savetiff, width = 7, height = 7, units = "in", res = 300) 
   
   custom_colors <- c("cyan3", "white", "lightskyblue", "orange")
