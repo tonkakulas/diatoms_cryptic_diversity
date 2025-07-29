@@ -11,7 +11,7 @@ library(ape)
 ###download the raxml executable "raxmlHPC-PTHREADS-AVX.exe"
 ###put the executable in your following path 
 ###give the path to the raxml executable 
-###FOR THIS SCRIPT IT WAS CREATED ONE EXAMPLE OF INPUT FILES
+###One example of an input file was created for this script: Achnanthidium minutissimum
 
 #load necessary libraries
 library (devtools)
