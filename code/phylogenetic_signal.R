@@ -10,7 +10,7 @@ library(openxlsx)
 
 #to calculate the phylogenetic signal tests for climate zones, the input data consisted of a generated phylogenetic tree for each species, 
 #with metadata file detailing ASVs of presented species and its occurrences across climate zones 
-
+#two examples of an input file was created for this script: Achnanthidium minutissimum and Adlafia minuscula
 rootpath <- "mypath"
 setwd (dir = rootpath)
 
