@@ -30,7 +30,7 @@ vecteur <- c("Sellaphora_nigri", "Eunotia_glacialis", "Achnanthidium_minutissimu
 
 
 for (i in vecteur) {
-  "i=Achnanthidium_minutissimum"
+  "i=achnanthidium_minutissimum"
   myPath <- ("yourfilepath", i, ".fasta", sep = "")
   
   print(myPath)
